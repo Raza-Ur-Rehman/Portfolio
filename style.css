@@ -6,21 +6,25 @@
   font-family: "poppins", sans-serif;
 }
 body {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-image: url(images/background.jpg)
-}
-/* .flex {
-  display: flex;
-}
-.j-c-c {
-    justify-content: center;
-} */
-.warpper {
   width: 100vw;
+  height: 100vh;
+  /* overflow: hidden; */
+}
+/*------ header page ------ */
+.page {
+  width: 100vw;
+  height: 100vh;
+}
+.back-video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+.warpper {
+  width: 100%;
   height: 5rem;
-  /* background-color: aqua;     */
 }
 nav {
   display: flex;
@@ -31,9 +35,10 @@ nav {
   font-size: 4rem;
   color: #fff;
   font-weight: 600;
+  cursor: pointer;
 }
 .logo span {
-    color: #5FF2FA;
+  color: #149414;
 }
 nav ul {
   display: flex;
@@ -41,40 +46,126 @@ nav ul {
   gap: 2.5rem;
   margin-left: 200px;
 }
-nav ul a {
+nav ul li a {
   text-decoration: none;
   color: #fff;
   font-size: 1.2rem;
+  position: relative;
+}
+nav ul li a::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #149414;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+nav ul li a:hover {
+  color: #149414;
 }
 .container {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: relative;
 }
 .title {
-    position: absolute;
-    width: 45rem; 
-    margin-top: 12rem;
-    margin-left: 10rem;
+  position: absolute;
+  width: 45rem;
+  margin-top: 12rem;
+  margin-left: 10rem;
 }
-.title h3  {
-    font-size: 1.6rem;
-    font-weight: 500;
-    color: #fff;
+.title h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #fff;
 }
 .title h3 span {
-    color: #5FF2FA;
-    text-transform: uppercase;
+  color: #149414;
+  text-transform: uppercase;
 }
 .title h1 {
-    text-transform: capitalize;
-    font-size: 4rem;
-    font-weight: 700;
-    line-height: 1.5;
-    color: #fff;
+  text-transform: capitalize;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
 }
 .title h1 span {
-    color: #5FF2FA;
-    font-weight: 600;
+  color: #149414;
+  font-weight: 600;
 }
+.btn-box {
+  margin: 20px 0;
+}
+.btn-box button {
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  font-size: 18px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.btn-1 {
+  background: #0e6b0e;
+  color: #fff;
+  padding: 10px 10px 10px 30px;
+  border-radius: 40px;
+  text-transform: capitalize;
+}
+.btn-1 img {
+  width: 40px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 30px;
+}
+.btn-2 {
+  background: transparent;
+  color: #fff;
+  text-decoration: 1.5px underline;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.btn-2 img {
+  width: 20px;
+  margin-left: 10px;
+}
+/* ------Portfolio page------- */
+#page1 {
+  background-color: #149414;
+  overflow: hidden;
+}
+.pg-title {
+  /* width: 100%;
+  height: 100px; */
+  background-color: aqua;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.pg-title h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #333;
+}
+.porf-box {
+  width: 100%;
+  background-color: aliceblue;
+  height: 800px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.project {
+  width: 400px;
+  height: 600px;
+  background-color: aqua;
 
+
+}
