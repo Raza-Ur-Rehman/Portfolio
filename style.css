@@ -6,11 +6,12 @@
   font-family: "poppins", sans-serif;
 }
 body {
-  background-color: #080808;
-  color: #fff;
+  width: 100vw;
+  height: 100vh;
+  /* overflow: hidden; */
 }
 /*------ header page ------ */
-#header {
+.page {
   width: 100vw;
   height: 100vh;
 }
