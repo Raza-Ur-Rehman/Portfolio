@@ -15,9 +15,15 @@ body {
 /* ___________________________ *\
  * TYPOGRAPHY
 \* ___________________________ */
-
 .headline_1 {
-    @apply text-4xl font-semibold leading-tight tracking-tight md:text-6xl sm:text-5xl pt-2 lg:leading-[1.15] ;
+    @apply max-w-max ;
+    background: -webkit-linear-gradient(45deg, #fafafa, #a1a1aa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.headline_1 {
+    @apply text-[45px] font-semibold leading-tight tracking-tight md:text-6xl sm:text-5xl pt-2 lg:leading-[1.15] ;
 }
 
 
@@ -77,13 +83,15 @@ body {
 /* Button */
 
 .btn {
-    @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-medium text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color] ;
+    @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-medium text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color] cursor-pointer ;
 }
 
 .btn-secondary{
     @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/90 hover:bg-zinc-50/80 active:scale-95 ;
 }
-
+.btn .material-symbols-rounded {
+    @apply text-[18px] ;
+}
 
 
 
