@@ -2,7 +2,7 @@
  * components
 \* ___________________________ */
 
-import { ButtonPrimary } from "./Button";
+import { ButtonOutline, ButtonPrimary } from "./Button";
 
 const Hero = () => {
   return (
@@ -34,7 +34,10 @@ const Hero = () => {
             <ButtonPrimary 
             label="Download CV"
             icon="download" />
-            button secondary
+            <ButtonOutline 
+            href="#about"
+            label="Scroll Down"
+            icon="arrow_downward" />
           </div>
         </div>
         <div className="">
