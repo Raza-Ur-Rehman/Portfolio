@@ -13,7 +13,8 @@ const aboutItem = [
 
 const About = () => {
   return (
-    <section id="about" className="section">
+    <section id="about" className="section  ">
+      {/* <h2 className="text-4xl ">About Me</h2> */}
       <div className="container">
         <div className="">
           <p className="">
@@ -25,6 +26,20 @@ const About = () => {
             entry-level opportunity where I can contribute my skills, learn from
             experienced developers, and grow as a professional.
           </p>
+          <div className="">
+            {
+            aboutItem.map(({label, number},key) =>(
+              <div key={key} className="">
+                <div className="">
+                  <span className="">{number}</span>
+                  <span className=""></span>
+                </div>
+                <p className="">{label}</p>
+              </div>
+            )) 
+            }
+            <img src="" alt="" className="" />
+            </div>
         </div>
       </div>
     </section>
