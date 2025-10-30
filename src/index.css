@@ -78,7 +78,7 @@ body {
 
 /* Navbar */
 .navbar {
-    @apply absolute top-full mt-2 right-0 min-w-40 p-2 bg-zinc-50/30 rounded-2xl ring-inset ring-1 ring-zinc-50/5 scale-90 isolate blur-sm opacity-0 invisible transition-[opacity,transform,filter] ease-in-out duration-300 md:static md:flex md:items-center md:mt-0 md:scale-100 md:opacity-100 md:visible md:blur-none md:bg-transparent md:backdrop-blur-2xl ;
+    @apply absolute top-full mt-2 right-0 min-w-40 p-2 bg-zinc-800/100 rounded-2xl ring-inset ring-1 ring-zinc-50/5 scale-90 isolate blur-sm opacity-0 invisible transition-[opacity,transform,filter] ease-in-out duration-300 md:static md:flex md:items-center md:mt-0 md:scale-100 md:opacity-100 md:visible md:blur-none md:bg-transparent md:backdrop-blur-2xl ;
 }
 .navbar.active {
     @apply scale-100 opacity-100 visible blur-none ease-in-out duration-300 ;
@@ -115,6 +115,9 @@ body {
 .btn-outline {
     @apply h-11 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800
 }
+
+
+.label
 
 
 
