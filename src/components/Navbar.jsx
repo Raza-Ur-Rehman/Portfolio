@@ -32,7 +32,7 @@ const Navbar = ({ navOpen }) => {
   const navItems = [
     {
       label: "Home",
-      link: "#home",
+      link: "#",
       className: "nav-link active",
       ref: lastActiveLink,
     },
@@ -46,11 +46,11 @@ const Navbar = ({ navOpen }) => {
       link: "#work",
       className: "nav-link",
     },
-    {
-      label: "Reviews",
-      link: "#reviews",
-      className: "nav-link",
-    },
+    // {
+    //   label: "Reviews",
+    //   link: "#reviews",
+    //   className: "nav-link",
+    // },
     {
       label: "Contact",
       link: "#contact",
