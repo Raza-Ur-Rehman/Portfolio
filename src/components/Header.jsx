@@ -23,12 +23,12 @@ const Header = () => {
             </a>
             aza
           </h1>
-          <div className="relative md:justify-self-center">
+          <div className="relative md:justify-self-center bg-zinc-700/20 p-1 rounded-xl">
             <button 
-            className=" menu-btn, md:hidden" 
+            className=" menu-btn, md:hidden  " 
             onClick={() => setNavOpen((prev) => !prev)}
             >
-              <span className="material-symbols-rounded">
+              <span className="material-symbols-rounded w-8 h-8 grid place-items-center text-zinc-200">
                 {navOpen ? 'close' : 'menu'}
               </span>
             </button>

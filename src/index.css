@@ -30,7 +30,7 @@ body {
 }
 
 .headline_2 {
-    @apply text-3xl lg:text-4xl lg:leading-tight font-semibold ;
+    @apply text-4xl lg:text-5xl lg:leading-tight font-semibold ;
 }               
 
 .title-1 {
@@ -60,6 +60,9 @@ body {
     @apply pt-20 lg:pt-32
 }
 
+.reveal-up {
+    @apply opacity-0 translate-y-30  ;
+}
 
 
 

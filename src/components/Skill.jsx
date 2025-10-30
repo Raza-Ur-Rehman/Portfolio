@@ -12,9 +12,9 @@ const Skill = () => {
 
   return (
     <section className="section">
-      <div className="container">
-        <h2 className="headline_2">Essential Tools I use</h2>
-        <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch]">
+      <div className="container ">
+        <h2 className="headline_2 reveal-up">Essential Tools I use</h2>
+        <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] ">
           Discover the powerful tools and technologies I use to create
           exceptional, high-performing websites & applications.
         </p>
@@ -27,6 +27,7 @@ const Skill = () => {
               label={label}
               desc={desc}
               key={key}
+              classes="reveal-up"                               
               />
             ) )
           }

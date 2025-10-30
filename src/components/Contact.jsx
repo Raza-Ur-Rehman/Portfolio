@@ -144,16 +144,16 @@ const Contact = () => {
     <section className="section" id="contact">
       <div className="container lg:grid lg:grid-cols-2 lg:items-stretch">
         <div className="mb-12 lg:mb-0 lg:flex lg:flex-col">
-          <h2 className="headline_2 lg:max-w-[12ch]">
+          <h2 className="headline_2 lg:max-w-[12ch] reveal-up ">
             Contact me for collaboration
           </h2>
 
-          <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch]">
+          <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch]  reveal-up">
             Reach out today to discuss your project needs and start
             collaborating on something amazing!
           </p>
 
-          <div className="flex items-center gap-2 mt-auto">
+          <div className="flex items-center gap-4 mt-auto reveal-up ">
             {socialLinks.map(({ href, icon }, key) => (
               <a
                 key={key}
@@ -168,7 +168,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <form onSubmit={handleSubmit} className="xl:pl-10 2xl:pl-20">
+        <form onSubmit={handleSubmit} className="xl:pl-10 2xl:pl-20 reveal-up border rounded-2xl border-zinc-700 p-6 md:p-8 lg:p-10 bg-zinc-900/50 backdrop-blur-sm">
           <div className="md:grid md:items-center md:gap-2 md:grid-cols-2">
             <div className="mb-4">
               <label htmlFor="name" className="label">
