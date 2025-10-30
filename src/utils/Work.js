@@ -1,9 +1,9 @@
 export const works = [
   {
     imgSrc: '/images/project-1.jpg',
-    title: 'Full stack music app',
+    title: 'QR Code Generator',
     tags: ['API', 'MVC', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/'
+    projectLink: 'https://raza-ur-rehman.github.io/QR-code-Generator/'
   },
   {
     imgSrc: '/images/project-2.jpg',
