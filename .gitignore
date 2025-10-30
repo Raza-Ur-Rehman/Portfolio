@@ -11,6 +11,32 @@ node_modules
 dist
 dist-ssr
 *.local
+.env
+.env.*.local
+.next
+out
+build
+. nuxt
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js     
+# Testing
+coverage/
+.nyc_output/        
+# Production
+build/
+# Miscellaneous
+.sass-cache/
+.cache/
+*.seed
+*.pid           
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*                                                     
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +48,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
