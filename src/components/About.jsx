@@ -16,8 +16,8 @@ const About = () => {
     <section id="about" className="section  ">
       {/* <h2 className="text-4xl ">About Me</h2> */}
       <div className="container">
-        <div className="bg-zinc-800 p-7 rounded-2xl md:p-12 ">
-          <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
+        <div className="bg-zinc-800 p-7 rounded-2xl md:p-12  reveal-up">
+          <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch] ">
             I&apos;m a dedicated and self-motivated MERN Stack Developer with a
             strong foundation in MongoDB, Express.js, React.js, and Node.js. I
             enjoy building dynamic web apps, from small projects to full-stack

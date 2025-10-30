@@ -7,9 +7,9 @@ export const works = [
   },
   {
     imgSrc: '/images/project-2.jpg',
-    title: 'Free stock photo app',
+    title: 'QR Code Generator',
     tags: ['API', 'SPA'],
-    projectLink: 'https://pixstock-official.vercel.app/'
+    projectLink: 'https://raza-ur-rehman.github.io/QR-code-Generator/'
   },
   {
     imgSrc: '/images/project-3.jpg',
