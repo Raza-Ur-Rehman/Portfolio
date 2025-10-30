@@ -29,10 +29,10 @@ export const works = [
     tags: ['BOLG',"Firebase","JS", 'Development'],
     projectLink: 'https://daily-bloging.vercel.app/'
   },
-  {
-    imgSrc: '/images/project-6.jpg',
-    title: 'vCard Personal portfolio',
-    tags: ['Web-design', 'Development'],
-    projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
-  },
+  // {
+  //   imgSrc: '/images/project-6.jpg',
+  //   title: 'vCard Personal portfolio',
+  //   tags: ['Web-design', 'Development'],
+  //   projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+  // },
 ];
